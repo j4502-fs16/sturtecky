@@ -1,4 +1,4 @@
 # sturtecky
 J7502
 
-Code text during class.
+https://j4502-fs16.github.io/sturtecky/
