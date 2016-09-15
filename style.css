@@ -1,24 +1,22 @@
-body{
-  text-align: center;
+#nav {
+  padding: 0;
 }
-ul {
-    list-style-position: inside;
+#nav li {
     list-style-type: none;
-    display: block;
-    overflow: hidden;
-    background-color: #FFEBC2;
-    padding: 5px;
-    margin: 0;
-    width: 100%;
-}
-li {
     float: left;
+    margin: 0;
+    padding: 0;
+    width: 25%;
 }
-li a {
-    display: block;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+#nav a:link, a:visited {
+  display: block;
+  color: #8B0000;
+  background-color: #FFEBC2;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  padding: 4px;
+  font-family: Helvetica, Arial, sans-serif;
 }
 p{
 	color: #666666;
@@ -27,19 +25,31 @@ p{
 h1{
     font-family: Georgia, "Times New Roman", serif;
     color: #8B0000;
+    text-align: center;
 }
-ul{
-  color: #8B0000;
-  text-decoration: none;
+body{
+    background-color: #ffffff;
+}
+img{
+    border: none;
+}
+#container{
+  width:95%;
+  background-color: #ffffff;
+  margin: 0 auto;
 }
 .caption{
   font-style:italic;
+  font-family: Georgia, "Times New Roman", serif;
   font-size:0.8em;
   margin-top:0;
+  text-align: right;
 }
 #footer {
   font-size: 0.8em;
-  text-align: right;
+  text-align: left;
+  font-family: Georgia, "Times New Roman", serif;
+  border-top: 1px solid black;
 }
 
 /* unvisited link */
