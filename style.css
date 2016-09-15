@@ -9,6 +9,7 @@ ul {
     background-color: #FFEBC2;
     padding: 5px;
     margin: 0;
+    width: 100%;
 }
 li {
     float: left;
