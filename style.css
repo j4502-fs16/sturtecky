@@ -27,6 +27,10 @@ h1{
     color: #8B0000;
     text-align: center;
 }
+h2{
+  font-family: Georgia, "Times New Roman", serif;
+  color: #8B0000;
+}
 body{
     background-color: #ebe3ce;
 }
