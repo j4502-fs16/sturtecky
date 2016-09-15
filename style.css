@@ -10,8 +10,8 @@
 }
 #nav a:link, a:visited {
   display: block;
-  color: #8B0000;
-  background-color: #FFEBC2;
+  color: #ebe3ce;
+  background-color: #8B0000;
   font-weight: bold;
   text-align: center;
   text-decoration: none;
@@ -28,7 +28,7 @@ h1{
     text-align: center;
 }
 body{
-    background-color: #ffffff;
+    background-color: #ebe3ce;
 }
 img{
     border: none;
@@ -49,26 +49,13 @@ img{
   font-size: 0.8em;
   text-align: left;
   font-family: Georgia, "Times New Roman", serif;
-  border-top: 1px solid black;
+  border-top: 1px solid #8B0000;
 }
 
-/* unvisited link */
-a:link {
-    color: #8B0000;
-    text-decoration: underline;
+#nav a:link, a:visited{
+  font-weight: bold;
 }
-/* visited link */
-a:visited {
-    color: #8B0000;
-    font-weight: bold;
+#nav a:hover, a:active{
+  color: #ebe3ce;
+  background-color: #000000;
 }
-/* mouse over link */
-a:hover {
-    color: #666666;
-}
-/* selected link */
-a:active {
-    color: #000000;
-}
-
-p.none {border-style: none;}
