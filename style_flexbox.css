@@ -1,6 +1,6 @@
 .navigation {
   list-style: none;
-  background: gray;
+  background: #525564;
   margin: 0;
   padding: 0;
   display: flex;
@@ -20,9 +20,8 @@
 }
 
 img{
-    border: none;
     width: 50%;
-    height: 50%;
+    height: auto;
 }
 
 .header, .main, .aside, .footer{
@@ -30,19 +29,19 @@ img{
   padding: 10px;
 }
 .header {
-  background: tomato;
+  background: #BEB9B5;
 }
 .footer {
-  background: lightgreen;
+  background: #74828F;
 }
 .main {
-  background: deepskyblue;
+  background: #FEF6EB;
 }
 .aside-1 {
-  background: gold;
+  background: #C25B56;
 }
 .aside-2 {
-  background: hotpink;
+  background: #96C0CE;
 }
 .wrapper {
   display: flex;
@@ -86,7 +85,7 @@ img{
     }
     img {
       width: 50%;
-      height: 50%;
+      height: auto;
       margin-right: 10px;
     }
     .navigation a {
