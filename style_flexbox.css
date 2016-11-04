@@ -1,3 +1,12 @@
+html, body { height: 100%; width: 100%; margin: 0; }
+
+p {
+	font-size: 1em;
+	line-height: 1.4;
+	width: 98%;
+	margin: 0.8em auto;
+}
+
 .navigation {
   list-style: none;
   background: #525564;
@@ -22,6 +31,7 @@
 img{
     width: 50%;
     height: auto;
+    display: none;
 }
 
 .header, .main, .aside, .footer{
@@ -51,6 +61,16 @@ img{
 }
 .main{
   text-align: left;
+}
+
+@media screen and (min-width: 480px) {
+	p{
+		width: 95%;
+    margin: 1em auto;
+	}
+  img {
+    display:block;
+  }
 }
 
 @media (min-width: 800px){
@@ -91,4 +111,16 @@ img{
     .navigation a {
       border: none;
     }
+    p{
+		width: 95%;
+		margin: 1.5em auto;
+	}
+}
+
+@media screen and (min-width: 1000px) {
+	p{
+		width: 80%;
+		max-width: 60em;
+    margin: 1.5em auto;
+	}
 }
