@@ -63,6 +63,26 @@ img{
   text-align: left;
 }
 
+nav ul li {
+	display: block;
+	border-top: 1px #525564;
+}
+nav a {
+	display: block;
+	color: #525564;
+}
+
+.hamburger {
+	order: 1;
+	width: 2em;
+}
+
+@media only screen and (max-width: 980px) {
+	.nav-primary .genesis-nav-menu {
+		display: none;
+	}
+}
+
 @media screen and (min-width: 480px) {
 	p{
 		width: 95%;
@@ -74,6 +94,18 @@ img{
 }
 
 @media (min-width: 800px){
+	nav ul {
+		display: flex;
+	}
+	nav ul li{
+		border-top: none;
+	}
+	.hamburger {
+		display: none;
+	}
+	nav{
+		order: 2;
+	}
     .navigation {
       flex-flow: row;
       justify-content: flex-end;
